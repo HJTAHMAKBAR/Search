@@ -66,6 +66,14 @@ body {
 .search-box:hover > .search-btn {
     background: #9bf39c;
 }
+.footer{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .btn {
     display: inline-block;
     width: 90px;
