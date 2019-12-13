@@ -1,7 +1,11 @@
 body {
+    min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: #b2e0df;
+    background: url('image/傍晚湖水.jpg');
+
+    justify-content: center;
+    align-items: center;
 }
 .search-box {
     position: absolute;
@@ -124,4 +128,53 @@ body {
         left: -10%;
         top: -10%;
     }
+}
+
+
+.box {
+    width: 50;
+    background: #b2e0df;
+    padding: 40px;
+    text-align: center;
+    color: #fbffff;
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+}
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+ul {
+    margin: 2%;
+    padding: 0%;
+}
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a {
+    color: #fffbff;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover {
+    color: #b9b9b9;
 }
