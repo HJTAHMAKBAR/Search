@@ -2,10 +2,8 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: url('image/傍晚湖水.jpg');
-
     justify-content: center;
-    align-items: center;
+    background: rgb(178,224,223);
 }
 .search-box {
     position: absolute;
@@ -16,6 +14,17 @@ body {
     height: 40px;
     border-radius: 40px;
     padding: 10px;
+}
+
+.bgp{
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    center: 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .search-btn {
@@ -34,13 +43,12 @@ body {
 
 .img {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
     height: 500px;
     margin-top: 15px;
-
 }
 
 .search-txt {
@@ -63,25 +71,18 @@ body {
 
 .middle {
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .search-box:hover > .search-btn {
     background: #9bf39c;
 }
-.footer{
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 
 .btn {
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     background: #f1f1f1;
     margin: 10px;
     border-radius: 30%;
@@ -130,15 +131,23 @@ body {
     }
 }
 
+.footer{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .box {
-    width: 50;
-    background: #b2e0df;
-    padding: 40px;
+    position:absolute;
+    top: 102%;
+    left: 0%;
+    padding-left: 15px;
+    width: 450px;
+    background: 0;
     text-align: center;
     color: #fbffff;
     font-family: 'Century Gothic', sans-serif;
-    position: absolute;
 }
 .box-img {
     border-radius: 50%;
@@ -155,15 +164,12 @@ body {
     letter-spacing: 3px;
     font-weight: 100;
 }
-.box h5 {
+.box h7 {
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 100;
 }
-ul {
-    margin: 2%;
-    padding: 0%;
-}
+
 .box li {
     display: inline-block;
     margin: 6px;
@@ -174,6 +180,10 @@ ul {
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 250ms;
+}
+.box ul {
+    margin: 0;
+    padding: 0;
 }
 .box li a:hover {
     color: #b9b9b9;
