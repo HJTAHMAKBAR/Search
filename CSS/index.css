@@ -4,6 +4,7 @@ body {
     padding: 0;
     justify-content: center;
     background: rgb(6,12,33);
+    -webkit-filter: grayscale(100%);
 }
 .search-box {
     position: absolute;
